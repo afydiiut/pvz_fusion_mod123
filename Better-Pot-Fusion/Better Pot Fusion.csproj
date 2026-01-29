@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp"><HintPath>libs/Assembly-CSharp.dll</HintPath></Reference>
+    <Reference Include="MelonLoader"><HintPath>libs/MelonLoader.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>libs/UnityEngine.CoreModule.dll</HintPath></Reference>
+    <Reference Include="Il2CppInterop.Runtime"><HintPath>libs/Il2CppInterop.Runtime.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>
