@@ -1,26 +1,13 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>disable</Nullable>
     <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <AssemblyName>Better_Pot_Fusion</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="Assembly-CSharp">
-      <HintPath>./MelonLoader/Il2CppAssemblies/Assembly-CSharp.dll</HintPath>
-    </Reference>
-    <Reference Include="MelonLoader">
-      <HintPath>./MelonLoader/net6/MelonLoader.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.CoreModule">
-      <HintPath>./MelonLoader/Il2CppAssemblies/UnityEngine.CoreModule.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.InputLegacyModule">
-      <HintPath>./MelonLoader/Il2CppAssemblies/UnityEngine.InputLegacyModule.dll</HintPath>
-    </Reference>
-    <Reference Include="Il2CppInterop.Runtime">
-      <HintPath>./MelonLoader/net6/Il2CppInterop.Runtime.dll</HintPath>
-    </Reference>
+    <Reference Include="Assembly-CSharp"><HintPath>libs/Assembly-CSharp.dll</HintPath></Reference>
+    <Reference Include="MelonLoader"><HintPath>libs/MelonLoader.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>libs/UnityEngine.CoreModule.dll</HintPath></Reference>
   </ItemGroup>
 </Project>
