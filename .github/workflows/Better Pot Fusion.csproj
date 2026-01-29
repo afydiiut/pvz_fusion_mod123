@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <AssemblyName>Better_Pot_Fusion</AssemblyName>
+    <RootNamespace>Better_Pot_Fusion</RootNamespace>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>D:\PvZF.3.2.1.Multi-lang.Release.1.By.Blooms\Game Files\MelonLoader\Il2CppAssemblies\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="MelonLoader">
+      <HintPath>D:\PvZF.3.2.1.Multi-lang.Release.1.By.Blooms\Game Files\MelonLoader\net6\MelonLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\PvZF.3.2.1.Multi-lang.Release.1.By.Blooms\Game Files\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>D:\PvZF.3.2.1.Multi-lang.Release.1.By.Blooms\Game Files\MelonLoader\Il2CppAssemblies\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>D:\PvZF.3.2.1.Multi-lang.Release.1.By.Blooms\Game Files\MelonLoader\net6\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
